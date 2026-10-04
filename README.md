@@ -154,16 +154,19 @@ As part of this class, we do encourage students to experiment with LLM services 
 ## Mealbook
 Single-page React + TypeScript app (Vite, React Router, Axios) built on [TheMealDB](https://www.themealdb.com/api.php).
 
+Live site: https://pseudopooja.github.io/mp2/
+
 - **List** (`/`): search-as-you-type by name, sort by name / category / region / ingredient count, ascending or descending.
 - **Gallery** (`/gallery`): photo grid with multi-select Category and Region filters (any-of within a group, all groups must match).
-- **Detail** (`/meal/:id`): full recipe, plus Previous/Next (wraps around, follows the filtered and sorted order you came from; left/right arrow keys also work).
+- **Detail** (`/meal/:id`): full recipe, plus Previous/Next (wraps around and follows the filtered and sorted order you came from; left/right arrow keys also work).
 - Search, sort and filters live in the URL, so refreshing keeps your place and "Back" returns you to the same results.
 
-## Sources and references (declare everything you actually used)
+## Sources and references
 - TheMealDB API docs: https://www.themealdb.com/api.php
 - React, React Router and Axios documentation
 - Vite react-ts template
 - Google Fonts: Bricolage Grotesque, Figtree
+
 
 ## LLM usage (required by the course policy)
 Code generated with Claude (Anthropic). Export and submit this chat log with your code, and answer the LLM survey questions in the grading form.
