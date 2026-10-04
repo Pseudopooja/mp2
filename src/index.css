@@ -1,0 +1,58 @@
+:root {
+  --color-enamel: #f6f7f2;
+  --color-paper: #ffffff;
+  --color-ink: #12213b;
+  --color-muted: #55627a;
+  --color-cobalt: #1d3fbb;
+  --color-cobalt-dark: #142d8c;
+  --color-saffron: #f4b63d;
+  --color-speck: #e3e8f2;
+  --color-line: #d3d9e4;
+  --font-display: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Figtree', 'Segoe UI', system-ui, sans-serif;
+  --max-width: 72rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-enamel);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+}
+
+a {
+  color: var(--color-cobalt);
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-saffron);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

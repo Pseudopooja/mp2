@@ -149,3 +149,21 @@ git push origin main
 We acknowledge the transformative potential of LLMs in generating code; however, we are still in the nascent stages of understanding how to embed LLMs in developer workflows to write code more efficiently while maintaining quality. Therefore, we will not be teaching students directly how to use LLMs to develop web applications.
 
 As part of this class, we do encourage students to experiment with LLM services such as OpenAI's ChatGPT to generate source code for MPs. If LLMs are used to generate code for an MP, students must (1) submit their chatlogs along with their source code, and (2) answer survey questions related to their experience using LLMs in the grading form. Failure to do this will be a violation of the academic integrity policy of this course.
+# MP 2 notes (append these to your README.md)
+
+## Mealbook
+Single-page React + TypeScript app (Vite, React Router, Axios) built on [TheMealDB](https://www.themealdb.com/api.php).
+
+- **List** (`/`): search-as-you-type by name, sort by name / category / region / ingredient count, ascending or descending.
+- **Gallery** (`/gallery`): photo grid with multi-select Category and Region filters (any-of within a group, all groups must match).
+- **Detail** (`/meal/:id`): full recipe, plus Previous/Next (wraps around, follows the filtered and sorted order you came from; left/right arrow keys also work).
+- Search, sort and filters live in the URL, so refreshing keeps your place and "Back" returns you to the same results.
+
+## Sources and references (declare everything you actually used)
+- TheMealDB API docs: https://www.themealdb.com/api.php
+- React, React Router and Axios documentation
+- Vite react-ts template
+- Google Fonts: Bricolage Grotesque, Figtree
+
+## LLM usage (required by the course policy)
+Code generated with Claude (Anthropic). Export and submit this chat log with your code, and answer the LLM survey questions in the grading form.
